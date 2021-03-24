@@ -1,0 +1,16 @@
+extends ../template
+
+block variables
+    - var title = 'Мои работы'
+
+block content
+    h1 Мои работы
+    p Константин марков
+    p ppp@aaa.temp
+    p +7(911)-111-11-11
+    form
+        label(for="message_theme") Напишите мне сообщение
+        input(name="message_theme" id="message_theme")
+        label(for="message") Сообщение
+        textarea(name="message" id="message")
+        button Написать мне    
